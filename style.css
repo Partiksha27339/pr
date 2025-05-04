@@ -1,0 +1,308 @@
+/* Reset & Base Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #0096c7;
+  color: rgb(12, 2, 2);
+  text-align: center;
+  padding: 2.5em;
+}
+
+/* Hero Section with Background Image */
+.hero {
+  background-image: url('https://images.template.net/wp-content/uploads/2017/05/Taxi-1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+}
+.taxi-contact {
+  background-color: #f1f1f1;
+  padding: 2em;
+  text-align: center;
+  margin: 2em auto;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.taxi-contact h2 {
+  color: #023e8a;
+  margin-bottom: 0.5em;
+}
+
+.taxi-contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.taxi-contact input,
+.taxi-contact button {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.taxi-contact button {
+  background-color: #0096c7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.taxi-contact button:hover {
+  background-color: #0077b6;
+}
+.agency-image {
+  text-align: center;
+  padding: 2em;
+  background-color: #f9f9f9;
+}
+
+.agency-image img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-top: 1em;
+}
+
+background-image: url('https://images.template.net/wp-content/uploads/2017/05/Taxi-1.jpg');
+/* Taxi Service Section */
+.taxi-service {
+  text-align: center;
+  padding: 2em;
+  background-color: #f9f9f9;
+}
+
+.taxi-img {
+  width: 300px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-top: 1em;
+}
+background-image: url('https://www.shutterstock.com/shutterstock/photos/1722074203/display_1500/stock-vector-taxi-service-online-concept-taxi-service-application-on-mobile-web-banner-with-copy-space-1722074203.jpg'); /* Local image */
+/* General Styles for the Section */
+.explore-world {
+  display: flex;  /* Using flexbox to position items side by side */
+  align-items: center;  /* Vertically center the content */
+  justify-content: space-between;  /* Space between the content and image */
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.explore-content {
+  flex: 1;  /* Allow the text to take available space */
+  margin-right: 20px;  /* Space between the text and image */
+}
+
+.explore-world h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #023e8a;
+}
+
+.explore-world p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Style for the Image */
+.explore-img {
+  width: 50%;  /* Adjust size of the image */
+  height: auto;
+  border-radius: 10px;  /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* Image shadow */
+}
+
+/* Make it responsive for smaller screens */
+@media (max-width: 768px) {
+  .explore-world {
+    flex-direction: column;  /* Stack content vertically on smaller screens */
+    text-align: center;  /* Center the text */
+  }
+
+  .explore-img {
+    width: 80%;  /* Adjust image width for smaller screens */
+    margin-top: 20px;  /* Add some space between text and image */
+  }
+}
+/* Footer Styling */
+.footer {
+  background-color: #023e8a; /* Dark Blue Background */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed; /* Stick to the bottom of the page */
+  width: 100%; /* Full width */
+  bottom: 0;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 1.2em;
+}
+
+/* Optional: Add some spacing or borders between the content above and footer */
+body {
+  margin-bottom: 60px;  /* Adjust to give space for the fixed footer */
+}
+/* Contact Information Section */
+.contact-info {
+  background-color: #f4f4f4;  /* Light gray background */
+  padding: 30px;
+  text-align: center;
+}
+
+.contact-info h2 {
+  font-size: 2.5em;
+  color: #023e8a;  /* Dark blue color */
+}
+
+.contact-info p {
+  font-size: 1.2em;
+  color: #333;  /* Dark gray for text */
+  margin: 10px 0;
+}
+
+.contact-info strong {
+  color: #023e8a;  /* Make the name and phone number stand out */
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #023e8a;  /* Dark Blue Background */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed; /* Stick to the bottom of the page */
+  width: 100%; /* Full width */
+  bottom: 0;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 1.2em;
+}
+
+/* Optional: Add some spacing or borders between the content above and footer */
+body {
+  margin-bottom: 60px;  /* Adjust to give space for the fixed footer */
+}
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contact Us Section Styling */
+.contact-us {
+  background-color: #f4f4f4;  /* Light gray background for the section */
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-us h2 {
+  font-size: 2.5em;
+  color: #023e8a;  /* Dark blue color for the heading */
+}
+
+.contact-us p {
+  font-size: 1.2em;
+  color: #333;  /* Dark gray text */
+  margin-bottom: 20px;
+}
+
+.contact-details {
+  background-color: #fff;  /* White background for contact details */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Shadow effect for the contact box */
+  display: inline-block;
+}
+
+.contact-details p {
+  font-size: 1.2em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.contact-details a {
+  color: #023e8a;  /* Dark blue links */
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;  /* Underline links on hover */
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #023e8a;  /* Dark Blue Background */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 1.2em;
+}
+@media (max-width: 768px) {
+  .contact-us h2 {
+    font-size: 2em;  /* Smaller heading size on mobile */
+  }
+
+  .contact-us p {
+    font-size: 1em;  /* Smaller paragraph text size */
+  }
+
+  .contact-details {
+    width: 80%;  /* Make the contact details box more compact on smaller screens */
+    margin: 0 auto;  /* Center the contact details box */
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a:hover, button:hover {
+  background-color: #0056b3;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+
+}
+  
+      
+  
+  
+  
+
+      
+     
